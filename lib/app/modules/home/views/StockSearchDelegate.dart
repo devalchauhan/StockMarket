@@ -84,6 +84,8 @@ class StockSearchDelegate extends SearchDelegate {
                     null) {
                   homeController.limitedStocks.add(suggestions[index]);
                   close(context, true);
+                  Get.find<HomeController>()
+                      .change([], status: RxStatus.success());
                 }
               },
               icon: homeController.limitedStocks.firstWhereOrNull((element) =>
