@@ -4,7 +4,7 @@ Stock Market App is meant for users who like to keep track of multiple stocks an
 
 ## Prerequisites
 
-- Flutter SDK
+- Flutter SDK (Version : 3.0.5 or above)
 - Code editor like VS Code or Android Studio
 - Git
 - Virtual or any test device
